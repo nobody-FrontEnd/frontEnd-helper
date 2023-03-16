@@ -1,0 +1,1 @@
+import{d as n,o as s,c as l,w as t,R as p,t as c,a as i,u as o,b1 as r,dd as u}from"./index.fa3829f9.js";const f=n({__name:"QuestionTooltip",props:{tooltip:null,placement:null},setup(a){const e=a;return(m,d)=>(s(),l(o(u),{placement:e.placement},{title:t(()=>[p(c(e.tooltip),1)]),default:t(()=>[i(o(r))]),_:1},8,["placement"]))}});export{f as _};

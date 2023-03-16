@@ -1,0 +1,6 @@
+import{d as f,q as C,r as p,c as g,w as l,u as r,o as h,j as A,a as i,cg as B,cd as k,an as n}from"./index.fa3829f9.js";import{f as u}from"./index.d22f3e90.js";import{C as I,a as _}from"./index.b38161f7.js";import"./MultiLineResult.eeac4e9b.js";import"./base64.25d9ff21.js";const v={class:"RSA"},w=f({__name:"index",setup(Q){const{t:c}=C(),y="A Free, Modern Toolbox, Built for Developers.",t=p(`-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZyxkpCOkAp9oqL78CZskZ07Nn
+6D38m2D2Tr57aCG6vQHT0IO1sKa4zHz2dPohcpuOdRS0NtjCu4TZMI/knwQy+i1a
+ypAspXLTp3WiT73b+ogAGnClpvLkJgdhBhwn8VjarHYXTE31149yAIpfQARhRuq/
+gryZ0FwMjILUzyjJ3QIDAQAB
+-----END PUBLIC KEY-----`),o=p(),d=()=>{o.value.handleEncrypt()},m=a=>{if(a.length<=0)return n.warning("Please enter the plain text"),"";if(t.value.length<=0)return n.warning("Please enter the key"),"";try{const e=u.pki.publicKeyFromPem(t.value);return u.util.encode64(e.encrypt(a))}catch(e){return n.error(e.message),""}};return(a,e)=>(h(),g(r(k),{"max-width":1280},{one:l(()=>[A("div",v,[i(_,{ref_key:"cryptRef",ref:o,encrypt:m,type:r(I).ENC,sample:y},{option:l(()=>[i(r(B),{modelValue:t.value,"onUpdate:modelValue":e[0]||(e[0]=s=>t.value=s),autofocus:"",class:"input",title:r(c)("rsa.inputKey"),onChange:d},null,8,["modelValue","title"])]),_:1},8,["type"])])]),_:1}))}});export{w as default};

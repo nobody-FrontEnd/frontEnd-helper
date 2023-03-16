@@ -1,0 +1,1 @@
+import{_ as t,o as n,b as a,j as s,g as o}from"./index.fa3829f9.js";const c={},r={class:"layout-wrapper"},d={class:"one"},_={class:"two"};function i(e,l){return n(),a("div",r,[s("div",d,[o(e.$slots,"one",{},void 0,!0)]),s("div",_,[o(e.$slots,"two",{},void 0,!0)])])}const u=t(c,[["render",i],["__scopeId","data-v-71874f24"]]);export{u as L};

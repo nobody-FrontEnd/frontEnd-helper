@@ -1,0 +1,3 @@
+import{d,r,H as p,c,w as f,u,o as m,a as i,cg as h,cd as M}from"./index.fa3829f9.js";import{M as _}from"./MultiLineResult.eeac4e9b.js";const L=d({__name:"index",setup(g){const n=r(`A Free, Modern Toolbox
+Built for Developers.
+`),a=r("");p(()=>{s()});function s(){let e=n.value,t="";for(let o=0;o<e.length;o++){let l=e[o].charCodeAt(0).toString(16);l.length===1&&(l="0"+l),t+="\\u{"+l+"}"}a.value=t}return(e,t)=>(m(),c(u(M),{"max-width":1280},{one:f(()=>[i(u(h),{modelValue:n.value,"onUpdate:modelValue":t[0]||(t[0]=o=>n.value=o),title:e.$t("utf16Encode.input"),onChange:s,"select-all-on-mount":""},null,8,["modelValue","title"]),i(u(_),{result:a.value,"result-desc":e.$t("utf16Encode.output")},null,8,["result","result-desc"])]),_:1}))}});export{L as default};
